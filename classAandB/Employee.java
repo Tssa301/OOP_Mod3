@@ -8,6 +8,12 @@ public class Employee {
     public static double grossSalary;
     public static double tax;
 
+    //Constructors
+	public Employee(String name, int code) {
+		this.name = name;
+		this.code = code;
+	}
+
     // Methods and Getters/Setters
     public int getCode() {
         return code;
